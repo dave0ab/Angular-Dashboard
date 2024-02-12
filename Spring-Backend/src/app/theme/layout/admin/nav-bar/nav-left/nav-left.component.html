@@ -1,0 +1,45 @@
+<div class="me-auto pc-mob-drp" >
+  <ul class="list-unstyled">
+    <li class="pc-h-item header-mobile-collapse" >
+      <a  style="background-color: black;"
+        href="javascript:"
+        #toggleButton
+        class="pc-head-link head-link-secondary ms-0 mobile-menu toggle-button"
+        id="mobile-collapse mobile-collapse1 toggle-button"
+        (click)="this.NavCollapsedMob.emit()"
+        
+      >
+        <i  style="color: red;" class="ti ti-menu-2"></i>
+      </a>
+        </li>
+    <li class="dropdown pc-h-item d-inline-flex d-md-none" ngbDropdown>
+      <a style="background-color: black;"
+        class="pc-head-link head-link-secondary dropdown-toggle arrow-none m-0"
+        data-bs-toggle="dropdown"
+        href="javascript:"
+        ngbDropdownToggle
+      >
+        <i style="color: red;"  class="ti ti-search"></i>
+      </a>
+      <div class="dropdown-menu pc-h-dropdown drp-search" ngbDropdownMenu>
+        <form class="px-3">
+          <div class="form-group mb-0 d-flex align-items-center" style="background-color: black;">
+            <i class="ti ti-search" style="color: red;"></i>
+            <input type="search" class="form-control border-0 shadow-none" placeholder="Search here. . ." />
+          </div>
+        </form>
+      </div>
+    </li>
+    <li class="pc-h-item d-none d-md-inline-flex">
+      <form class="header-search">
+        <div class="search-btn">
+          <i class="ti ti-search" ></i>
+        </div>
+        <input type="search" class="form-control" placeholder="Search here. . ." />
+       <!-- <button class="btn btn-light-secondary btn-search" style="background-color: black;">
+          <i class="ti ti-adjustments-horizontal"  style="color: red;"></i>
+        </button>-->
+      </form>
+    </li>
+  </ul>
+</div>

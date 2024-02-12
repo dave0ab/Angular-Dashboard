@@ -1,0 +1,37 @@
+<div class="auth-main">
+  <div class="auth-wrapper v3">
+    <div class="auth-form">
+      <div class="card mt-5">
+        <div class="card-body">
+          <a href="javascript:" class="d-flex justify-content-center mt-3">
+            <img src="assets/images/zemen.png" />
+          </a>
+          <div class="row">
+            <div class="d-flex justify-content-center">
+              <div class="auth-header">
+                <h2 class="text-secondary mt-5"><b>Enter Code</b></h2>
+                             </div>
+            </div>
+          </div>
+          <h2 class="text-secondary mt-5"><b>Please check your email and enter the code</b></h2>
+         
+          <h5 class="my-4 d-flex justify-content-center"></h5>
+          <form  #forgetForm="ngForm" >
+          <div class="form-floating mb-3">
+            <input type="number" class="form-control"
+            id="code" name="code" 
+            [(ngModel)]="forgetModel.code" required/>
+            <label for="floatingInput">Enter Code</label>
+          </div>
+          
+          
+          <div class="d-grid mt-4">
+            <button type="button" [disabled]="!forgetForm.valid" (click)="forget()" class="btn btn-secondary p-2">Submit</button>
+          </div>
+          <hr />
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
