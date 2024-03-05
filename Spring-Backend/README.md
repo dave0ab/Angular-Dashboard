@@ -1,123 +1,63 @@
-# Berry Free Angular Bootstrap Admin Template [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Get%20Berry%20React%20-%20The%20most%20beautiful%20Material%20designed%20Admin%20Dashboard%20Template%20&url=https://berrydashboard.io&via=codedthemes&hashtags=angular,webdev,developers,javascript)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Price](https://img.shields.io/badge/price-FREE-0098f7.svg)](https://github.com/codedthemes/berry-free-angular-admin-template/blob/main/LICENSE)
-[![GitHub package version](https://img.shields.io/github/package-json/v/codedthemes/berry-free-angular-admin-template)](https://github.com/codedthemes/berry-free-angular-admin-template/)
+Project Readme
 
+Project Overview
+This project is a comprehensive web application featuring an Angular frontend, a backend REST API, and a MySQL database. The primary functionality revolves around user authentication, providing login and signup features, and a dashboard for managing user-related tasks.
 
-Berry is a free angular admin dashboard template built with Angular and latest Bootstrap 5. It is meant to provide the best possible User Experience with highly customizable feature-rich pages. It is a complete Dashboard Template that has easy and intuitive responsive design whether it is viewed on retina screens or laptops.
+Technologies Used
+Frontend Framework: Angular
+Backend Framework: [Specify Your Backend Framework]
+Database: MySQL
+Getting Started
+Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
 
-:star: :star: :star: Do not forget to star (Top right of this page) it if you like the theme  :star: :star: :star:
+Prerequisites
+Node.js and npm installed on your machine
+MySQL database server installed and running
+[Other backend prerequisites]
+Installing
+Clone the repository to your local machine:
+bash
+Copy code
+git clone [repository-url]
+Navigate to the project directory:
+bash
+Copy code
+cd [project-folder]
+Install frontend dependencies:
+Copy code
+npm install
+[Additional steps for backend setup]
 
-![IMG_8566.jpg](https://berrydashboard.io/imp-images/berry-github-free-angular-repo-1.jpg)
+Set up the MySQL database:
 
+Create a new database and tables as per the provided schema.
+Configuration
+Configure the backend to connect to the MySQL database. Update the database connection details in the backend configuration file.
 
-[Pro version](https://berrydashboard.io) of Berry Angular Dashboard template contains features like TypeScript, Apps, Authentication Methods (i.e. JWT, Auth0, Firebase), Advance Components, Form Plugins, Layouts, Widgets, and many more.
+[Other configuration steps if applicable]
 
-| [Berry Free](https://berrydashboard.io/angular/free/)    | [Berry](https://codedthemes.com/item/berry-angular-admin-dashboard-template/) |
-| ---------------------------------------------------------------------------------------- | :------------------------------------------------------------------------|
-| **9** Demo pages                                                                         | **45+** demo pages                                                       |
-| -                                                                                        | ✓ Multi-language                                                         |
-| -                                                                                        | ✓ Dark/Light Mode 🌓                                                    |
-| -                                                                                        | ✓ TypeScript version                                                     |
-| -                                                                                        | ✓ 6+ color Options                                                       |
-| -                                                                                        | ✓ RTL                                                                    |
-| -                                                                                        | ✓ [More components](https://codedthemes.com/item/berry-angular-admin-dashboard-template/)         |  
-
-
-## Why Berry?
-
-Berry offers everything you need to create dashboards. We have included the following high-end features in our initial release:
-
- * Modern aesthetics UI design
- * Bootstrap components
- * Fully Responsive, all modern browser supported
- * Easy to use code structure
- * Flexible & High-Performance code
- * Easy Documentation Guide
-
-## Free Berry Angular version
-
- - [Preview](https://berrydashboard.io/angular/free/)
- - [Download from Github](https://github.com/codedthemes/berry-free-angular-admin-template)
- 
-## Berry Pro version
-
- - [Preview](https://berrydashboard.io/angular/default)
- - [Purchase from CodedThemes](https://codedthemes.com/item/berry-angular-admin-dashboard-template/)
-
-## Table of contents
-
- * [Getting Started](#getting-started)
- * [Documentation](#documentation)
- * [Technology Stack](#technology-stack)
- * [Author](#author)
- * [Issues?](#issues)
- * [License](#license)
- * [More Free Angular Templates](#more-free-angular-dashboard-templates)
- * [More Pro Angular Templates](#more-premium-angular-dashboard-templates)
- * [Follow us](#follow-us)
- 
-## Getting Started
-
-1. Clone from Github 
-```
-git clone https://github.com/codedthemes/berry-free-angular-admin-template.git
-```
-2. Install packages
-```
-npm i --legacy-peer-deps
-```
-
-3. Run project
-```
-npm run start
-```
+Running the Application
+Start the backend server:
+csharp
+Copy code
+[backend-start-command]
+Launch the frontend application:
+Copy code
+ng serve
+Access the application in your web browser:
+arduino
+Copy code
+http://localhost:4200
+Usage
+Login: Users can log in using their credentials.
+Signup: New users can create an account.
+Dashboard: Upon logging in, users are directed to a dashboard where they can [specify dashboard functionalities].
 
 
-## Documentation
+Screenshots
+![Screenshot 2024-02-12 140551](https://github.com/dave0ab/Angular-Dashboard/assets/119971923/23012dcb-9078-4e96-a477-77672fe3487d)
+![Screenshot 2024-02-12 140537](https://github.com/dave0ab/Angular-Dashboard/assets/119971923/b6338df0-8a24-4f79-af92-773092e3e4aa)
+![Screenshot 2024-02-12 140458](https://github.com/dave0ab/Angular-Dashboard/assets/119971923/44ab93ec-b4cc-4687-89b3-42671f9ba036)
+![Screenshot 2024-02-12 140347](https://github.com/dave0ab/Angular-Dashboard/assets/119971923/4b61c834-60ef-4984-bdce-9790597e01fd)
 
-[Berry Angular Documentation](https://codedthemes.gitbook.io/berry-angular/) helps you with installation, deployment, and troubleshooting.
-
-## Technology Stack
-
- - Bootstrap 5
- - Angular 15
- 
-
-## Author
-
-Berry is developed by Team [CodedThemes](https://codedthemes.com).
-
-## Issues
-
-To report a bug, please submit an [issue](https://github.com/codedthemes/berry-free-angular-admin-template/issues) on Github. We will respond as soon as possible to resolve the issue.
-
-## License
-
- - Licensed cover under [MIT](https://github.com/codedthemes/datta-able-bootstrap-dashboard/blob/master/LICENSE)
-
-## Berry - React version
-
-- [Free](https://berrydashboard.io/free/)
-- [Premium](https://material-ui.com/store/items/berry-react-material-admin/)
-
-## More Free Angular Dashboard Templates
-
- - [Datta Able Angular](https://codedthemes.com/item/datta-able-angular-lite/)
- - [Gradient Able Angular](https://codedthemes.com/item/gradient-able-angular-free-admin-template/)
- - [Next Angular](https://codedthemes.com/item/next-free-admin-template/)
-
-## More Premium Angular Dashboard Templates
-
- - [Datta Able Angular Pro](https://codedthemes.com/item/datta-able-angular/)
- - [Gradient Able Angular Pro](https://codedthemes.com/item/gradient-able-angular-admin-template/)
- - [Next Angular Pro](https://codedthemes.com/item/next-angular-admin-template/)
- 
-## Follow us
- - [Website](https://berrydashboard.io/angular/)
- - [Blog](https://blog.berrydashboard.io)
- - [CodedThemes](https://codedthemes.com)
- - [Dribbble](https://dribbble.com/codedthemes)
- - [Facebook](https://www.facebook.com/codedthemes)
- - [Twitter](https://twitter.com/codedthemes)
